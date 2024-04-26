@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: "poppin",sans-serif;
+}
+body{
+    
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+        background: url('images/b5.png');
+        background-size: cover;
+        background-position: center;
+
+}
+.container{
+    position: relative;
+    width: auto;
+    height:auto;
+    background: rgba(255,255,255,.1);
+    backdrop-filter: blur(30px);
+    border:2px solid rgba(255,255,255,.2);
+    border-radius: 16px;
+    padding: 20px;
+    color: #fff;
+    transition: height .6s ease;
+}
